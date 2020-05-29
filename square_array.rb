@@ -3,7 +3,7 @@ def square_array(array)
   counter = 0
   square_array = []
   array.each do |numbers|
-    squared = numbers.to_i ** 2
+    squared = numbers.to_i ** numbers.to_i
     square_array[counter] << squared
     counter += 1
   end
